@@ -4,6 +4,6 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
 
-data class Category(
-    @SerializedName("strCategory") val name: String
+data class Area(
+    @SerializedName("strArea") val name: String
 )

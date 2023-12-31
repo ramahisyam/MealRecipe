@@ -16,6 +16,9 @@
         android:theme="@style/Theme.MealRecipe"
         tools:targetApi="31">
         <activity
+            android:name=".views.MealActivity"
+            android:exported="false" />
+        <activity
             android:name=".views.MainActivity"
             android:exported="true">
             <intent-filter>
